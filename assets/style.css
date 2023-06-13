@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    height: 125px;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+    color: lightblue;
+}
+
+h1 {
+    height: 70px;
+    width: 300px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: lightblue;
+    color: gray;
+}
+
+.header2 {
+    float: right;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    margin-right: 10px;
+}
+a:hover{
+    background-color: lightskyblue;
+}
+
+.middle {
+    height: 350px;
+    width: 100%;
+    padding: 25px;
+    background-image: url("./image/middle.jpg");
+    background-size: cover;
+    background-position:center;
+
+}
+
+.side-aboutme{
+    height: 100px;
+    width: 25%;
+    padding: 25px;
+    float: left;
+    border-right: 5px solid gray;
+    text-align: end;
+    color: skyblue;
+}
+
+.aboutme p {
+    font-size: 24px;
+    float: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 10px;
+    padding: 8px;
+}
+
+.area1 {
+    display: flex;
+}
+.side-work{
+    display: inline-flexbox;
+    height: 500px;
+    width: 25%;
+    margin-top: 100px;
+    padding: 50px;
+    border-right: 5px solid gray;
+    text-align: end;
+    color: skyblue;
+}
+
+.work{
+    display: flex;
+    width: 150px;
+
+
+}
+.process-control {
+    border: 5px solid gray;
+    background-image: url("./image/PC.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.user-interface{
+    border: 5px solid gray;
+    background-image: url("./image/User.jpg");
+    background-size: cover;
+    background-position:center;
+} 
+.calculator{
+    border: 5px solid gray;
+    background-image: url("./image/calculator.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+.Database{
+    border: 5px solid gray;
+    background-image: url("./image/database.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.contact{
+    display: flex;
+}
+
+.contact.side{
+    display: inline-block;
+    border-right: 5px solid gray;
+    height: 75px;
+    width: 25%;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: right;
+    color: skyblue;
+}
+
+.contact.contacts p{
+
+    padding: 20px;
+    font-size: 26px;
+    font-style: oblique;
+
+}
