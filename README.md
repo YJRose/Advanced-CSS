@@ -13,6 +13,6 @@ WHEN I am presented with the developer's first application THEN that application
 WHEN I click on the images of the applications THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices THEN I am presented with a responsive layout that adapts to my viewport
 
-Deployed link: https://yjrose.github.io/Advanced-CSS/
+Deployed link: [https://yjrose.github.io/Mywebsite/]
 ---
 © 2023 YJLin Bootcamp Challenge accepted! 👓
